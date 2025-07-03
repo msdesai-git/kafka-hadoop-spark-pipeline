@@ -46,7 +46,9 @@ kafka-hadoop-spark-pipeline/
 │
 └── shell/
     ├── start_kafka.sh            # Starts Kafka + Zookeeper services
-    └── run_pipeline.sh           # One-click runner for ingestion + processing
+    ├── run_pipeline.sh           # One-click runner for ingestion + processing
+    ├── run_spark_job.sh          # Runs Spark job for cleaning and querying clickstream data
+    └── run_hive_script.sh        # Runs predefined Hive commands to create external tables
 ```
 
 ---
